@@ -1,0 +1,24 @@
+# login page
+
+login.pageTitle=Welcome to tyreBoard
+login.formTitle=Account Login
+login.formField.username=Username
+login.formField.password=Password
+login.button.newAccount=Create New Account
+login.button.forgotPassword=Forgot Password?
+login.button.signIn=Sign In
+login.error.invalidUserOrPassword=Invalid user name or password
+
+# main
+main.pageTitle=Dashboard - TyreBoard
+
+#header
+header.gotMessages=You have {0} messages
+header.viewMessages=View All Messages
+header.gotNotifications=You Have {0} Notifications
+header.viewNotifications=View Notifications
+header.welcome=Welcome
+header.profile=My Profile
+header.settings=Settings
+header.help=Help
+header.logout=Logout

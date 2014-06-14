@@ -1,0 +1,8 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/Users/ealcala/Documents/SoftwareDev/playFramework/workspace/tyreBoard/conf/application.conf,/Users/ealcala/Documents/SoftwareDev/playFramework/workspace/tyreBoard/target/scala-2.11/classes/application.conf)[0m
+[0m[[0mdebug[0m] [0m	(/Users/ealcala/Documents/SoftwareDev/playFramework/workspace/tyreBoard/conf/evolutions,/Users/ealcala/Documents/SoftwareDev/playFramework/workspace/tyreBoard/target/scala-2.11/classes/evolutions)[0m
+[0m[[0mdebug[0m] [0m	(/Users/ealcala/Documents/SoftwareDev/playFramework/workspace/tyreBoard/conf/messages.en,/Users/ealcala/Documents/SoftwareDev/playFramework/workspace/tyreBoard/target/scala-2.11/classes/messages.en)[0m
+[0m[[0mdebug[0m] [0m	(/Users/ealcala/Documents/SoftwareDev/playFramework/workspace/tyreBoard/conf/messages.es,/Users/ealcala/Documents/SoftwareDev/playFramework/workspace/tyreBoard/target/scala-2.11/classes/messages.es)[0m
+[0m[[0mdebug[0m] [0m	(/Users/ealcala/Documents/SoftwareDev/playFramework/workspace/tyreBoard/conf/routes,/Users/ealcala/Documents/SoftwareDev/playFramework/workspace/tyreBoard/target/scala-2.11/classes/routes)[0m
+[0m[[0mdebug[0m] [0m	(/Users/ealcala/Documents/SoftwareDev/playFramework/workspace/tyreBoard/conf/evolutions/default,/Users/ealcala/Documents/SoftwareDev/playFramework/workspace/tyreBoard/target/scala-2.11/classes/evolutions/default)[0m
+[0m[[0mdebug[0m] [0m	(/Users/ealcala/Documents/SoftwareDev/playFramework/workspace/tyreBoard/conf/evolutions/default/1.sql,/Users/ealcala/Documents/SoftwareDev/playFramework/workspace/tyreBoard/target/scala-2.11/classes/evolutions/default/1.sql)[0m
