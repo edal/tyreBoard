@@ -46,7 +46,7 @@ public class Application extends Controller {
 
             models.User user = new User();
             user.username=username;
-            user.name="JR employee";
+            user.name="Sales Manager";
 
             return ok(dashboard.render(user));
 

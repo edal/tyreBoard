@@ -87,10 +87,10 @@ Seq[Any](format.raw/*1.14*/("""
                     <a href="#" class="box">
                         <div class="avatar"><img src=""""),_display_(/*60.56*/routes/*60.62*/.Assets.at("images/avatar-5.png")),format.raw/*60.95*/("""" alt=""></div>
                         <div class="info">
-                            <div class="author">Jonas Anderson</div>
+                            <div class="author">Sale CHN-436712</div>
                             <div class="date">3 hours ago</div>
                             <div class="clearfix"></div>
-                            <div class="text">Followed <span class="follow-link">Dennis Salvatier</span></div>
+                            <div class="text">Transports agency <span class="follow-link">CONFIRMED ARRIVAL</span></div>
                         </div>
                         <div class="clearfix"></div>
                     </a>
@@ -103,7 +103,7 @@ Seq[Any](format.raw/*1.14*/("""
                             <div class="author">Ilias Sounas</div>
                             <div class="date">19 hours ago</div>
                             <div class="clearfix"></div>
-                            <div class="text">Commented on <span class="comment-link">Angry Cloud</span></div>
+                            <div class="text"> <span class="comment-link">NEW STOCK UNITS ADDED</span></div>
                         </div>
                         <div class="clearfix"></div>
                     </a>
@@ -113,10 +113,10 @@ Seq[Any](format.raw/*1.14*/("""
                     <a href="#" class="box">
                         <div class="avatar"><img src=""""),_display_(/*86.56*/routes/*86.62*/.Assets.at("images/avatar-7.png")),format.raw/*86.95*/("""" alt=""></div>
                         <div class="info">
-                            <div class="author">Erin Hunting</div>
+                            <div class="author">Sale CHN-48561</div>
                             <div class="date">19 hours ago</div>
                             <div class="clearfix"></div>
-                            <div class="text">Liked <span class="like-link">Overnight work</span></div>
+                            <div class="text">Tracking ticket <span class="like-link">CONFIRMED BLOCKING ISSUE</span></div>
                         </div>
                         <div class="clearfix"></div>
                     </a>
@@ -183,10 +183,10 @@ Seq[Any](format.raw/*1.14*/("""
 }
               /*
                   -- GENERATED --
-                  DATE: Sun Jun 15 00:05:06 CEST 2014
+                  DATE: Sun Jun 15 00:58:45 CEST 2014
                   SOURCE: /Users/ealcala/Documents/SoftwareDev/playFramework/workspace/tyreBoard/app/views/header.scala.html
-                  HASH: 88ead42ccc1074742646353f61626df6e8592b42
-                  MATRIX: 722->1|822->13|850->15|1649->787|1703->820|1920->1010|1935->1016|1989->1049|2584->1617|2636->1648|3104->2089|3163->2127|3380->2317|3395->2323|3449->2356|4151->3031|4166->3037|4220->3070|4921->3744|4936->3750|4990->3783|5551->4317|5608->4353|6953->5670|6969->5676|7022->5707|7119->5776|7167->5802|7204->5811|7218->5815|7250->5824|7281->5825|7312->5827|7327->5831|7355->5836|7760->6213|7808->6239|7908->6311|7957->6338|8063->6416|8108->6439|8217->6520|8264->6545
+                  HASH: 3d6437c300d388a6f30fe8860516bfe17e912c29
+                  MATRIX: 722->1|822->13|850->15|1649->787|1703->820|1920->1010|1935->1016|1989->1049|2584->1617|2636->1648|3104->2089|3163->2127|3380->2317|3395->2323|3449->2356|4162->3042|4177->3048|4231->3081|4930->3753|4945->3759|4999->3792|5582->4348|5639->4384|6984->5701|7000->5707|7053->5738|7150->5807|7198->5833|7235->5842|7249->5846|7281->5855|7312->5856|7343->5858|7358->5862|7386->5867|7791->6244|7839->6270|7939->6342|7988->6369|8094->6447|8139->6470|8248->6551|8295->6576
                   LINES: 26->1|29->1|31->3|56->28|56->28|60->32|60->32|60->32|72->44|72->44|84->56|84->56|88->60|88->60|88->60|101->73|101->73|101->73|114->86|114->86|114->86|125->97|125->97|151->123|151->123|151->123|152->124|152->124|152->124|152->124|152->124|152->124|152->124|152->124|152->124|160->132|160->132|161->133|161->133|162->134|162->134|163->135|163->135
                   -- GENERATED --
               */

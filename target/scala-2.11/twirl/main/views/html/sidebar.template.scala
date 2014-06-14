@@ -31,18 +31,18 @@ Seq[Any](format.raw/*1.1*/("""<!--BEGIN SIDEBAR-->
 
     <ul class="main-menu">
         <li class="active"><a href="dashboard.html"><i class="general"></i> General</a></li>
-        <li><a href="ui.html"><i class="components"></i> UI</a></li>
+        <li><a href="ui.html"><i class="components"></i> Worklog</a></li>
         <li><a href="forms.html"><i class="forms"></i> Forms</a></li>
-        <li><a href="charts.html"><i class="statistics"></i> Statistics</a></li>
         <li><a href="typo.html"><i class="pages"></i> Pages</a></li>
-        <li><a href="tables.html"><i class="tables"></i> Tables</a></li>
+        <li><a href="charts.html"><i class="statistics"></i> Statistics</a></li>
+        <li><a href="tables.html"><i class="tables"></i> Reports</a></li>
         <li><a href="contacts.html"><i class="bonus"></i> Bonus</a></li>
     </ul>
 
     <ul class="additional-menu">
         <li class="active"><a href="dashboard.html"><i class="icon-home"></i> Dashboard</a></li>
-        <li><a href="gallery.html"><i class="icon-picture"></i> Image gallery</a></li>
-        <li><a href="icons.html"><i class="icon-star"></i> Icons</a></li>
+        <li><a href="gallery.html"><i class="icon-picture"></i> Product gallery</a></li>
+        <li><a href="icons.html"><i class="icon-star"></i> Favorites</a></li>
         <li><a href="calendar.html"><i class="icon-calendar"></i> Calendar</a></li>
     </ul>
 
@@ -102,7 +102,7 @@ Seq[Any](format.raw/*1.1*/("""<!--BEGIN SIDEBAR-->
     <div class="upload-box">Drop files <br> here to upload</div>
         <!--Upload Box END-->
 
-        <!--Media Files-->
+        <!--Media Files
     <div class="media-files">
         <div class="title">Media Files</div>
         <p>This is Photoshop's version  of Lorem Ipsum.</p>
@@ -120,10 +120,12 @@ Seq[Any](format.raw/*1.1*/("""<!--BEGIN SIDEBAR-->
             <div class="process-progress"> <div class="advance green" style="width:23%"></div> </div>
         </div>
     </div>
+    -->
         <!--Media Files END-->
 
-        <!--Add New Widget-->
+        <!--Add New Widget
     <a href="#" class="add-widget-link">Add New Widget</a>
+    -->
         <!--Add New Widget END-->
 
     <div class="clearfix"></div>
@@ -142,10 +144,10 @@ Seq[Any](format.raw/*1.1*/("""<!--BEGIN SIDEBAR-->
 }
               /*
                   -- GENERATED --
-                  DATE: Sat Jun 14 23:14:05 CEST 2014
+                  DATE: Sun Jun 15 01:29:33 CEST 2014
                   SOURCE: /Users/ealcala/Documents/SoftwareDev/playFramework/workspace/tyreBoard/app/views/sidebar.scala.html
-                  HASH: 70ca97b2aae7024b921f507b3ebeccc44aecef37
-                  MATRIX: 800->0|2043->1216|2058->1222|2117->1260|2491->1607|2506->1613|2565->1651|2945->2004|2960->2010|3019->2048|3399->2401|3414->2407|3473->2445|3851->2796|3866->2802|3925->2840|4303->3191|4318->3197|4377->3235
+                  HASH: 01d7af52628efad47b65b9def7f0ceaeef9361d5
+                  MATRIX: 800->0|2055->1228|2070->1234|2129->1272|2503->1619|2518->1625|2577->1663|2957->2016|2972->2022|3031->2060|3411->2413|3426->2419|3485->2457|3863->2808|3878->2814|3937->2852|4315->3203|4330->3209|4389->3247
                   LINES: 29->1|55->27|55->27|55->27|62->34|62->34|62->34|69->41|69->41|69->41|76->48|76->48|76->48|83->55|83->55|83->55|90->62|90->62|90->62
                   -- GENERATED --
               */

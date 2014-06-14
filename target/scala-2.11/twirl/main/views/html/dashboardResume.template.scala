@@ -109,7 +109,7 @@ Seq[Any](format.raw/*3.1*/("""<!--BEGIN MAIN CONTENT-->
             <div class="grid-title">
                 <div class="pull-left">
                     <div class="icon-title"><i class="icon-bar-chart"></i></div>
-                    <span>Active Users</span>
+                    <span>Market Trend</span>
                     <div class="clearfix"></div>
                 </div>
                 <div class="pull-right">
@@ -128,15 +128,15 @@ Seq[Any](format.raw/*3.1*/("""<!--BEGIN MAIN CONTENT-->
             <div class="information-data-2">
                 <div class="data">
                     <p class="date-figures">345</p>
-                    <p class="date-title">User Download</p>
+                    <p class="date-title">UD</p>
                 </div>
                 <div class="data">
                     <p class="date-figures">54.5C</p>
-                    <p class="date-title">User Download</p>
+                    <p class="date-title">UC</p>
                 </div>
                 <div class="data">
                     <p class="date-figures">120R</p>
-                    <p class="date-title">User Download</p>
+                    <p class="date-title">UR</p>
                 </div>
             </div>
 
@@ -156,8 +156,9 @@ Seq[Any](format.raw/*3.1*/("""<!--BEGIN MAIN CONTENT-->
                 <div class="select-active">
                     <select class="chzn-select chosen_select"  >
                         <option value=""></option>
-                        <option value="United States">United States</option>
-                        <option value="United Kingdom">United Kingdom</option>
+                        <option value="China<">China</option>
+                        <option value="Egypt">Egypt</option>
+                        <option value="Panama">Panama</option>
                     </select>
 
                 </div>
@@ -175,7 +176,7 @@ Seq[Any](format.raw/*3.1*/("""<!--BEGIN MAIN CONTENT-->
                 <div class="grid-title">
                     <div class="pull-left">
                         <div class="icon-title"><i class="icon-file"></i></div>
-                        <span>Visitor Statistics</span>
+                        <span>Contacts Statistics</span>
                         <div class="clearfix"></div>
                     </div>
                     <div class="pull-right">
@@ -187,23 +188,23 @@ Seq[Any](format.raw/*3.1*/("""<!--BEGIN MAIN CONTENT-->
 
                 <div class="grid-content overflow">
                     <ul class="list-visitor">
-                        <li><span class="linecustom">0,12,0,11,18,13,22,19</span>
-                            Visits:
-                            <span class="number">356</span>
+                        <li><span class="linecustom">5,1,9,11,10,13,22,19</span>
+                            Contacts:
+                            <span class="number">532</span>
                         </li>
                         <li><span class="linecustom">0,12,0,11,18,13,22,19</span>
-                            Unique Visitors:
+                            Unique Deal Contacts:
                             <span class="number">24</span>
                         </li>
-                        <li><span class="linecustom">0,12,0,11,18,13,22,19</span>
-                            Pageviews:
+                        <li><span class="linecustom">5,120,700,1100,1150,1400,2000,2104</span>
+                            Offers send:
                             <span class="number">2104</span>
                         </li>
                         <li><span class="linecustom">0,12,0,11,18,13,22,19</span>
                             Bounce Rate: <span class="number">35%</span>
                         </li>
-                        <li><span class="linecustom">0,12,0,11,18,13,22,19</span>
-                            New Visits:
+                        <li><span class="linecustom">1,32,4,11,28,73,42,59</span>
+                            New Deals:
                             <span class="number">53.5%</span>
                         </li>
                     </ul>
@@ -218,10 +219,11 @@ Seq[Any](format.raw/*3.1*/("""<!--BEGIN MAIN CONTENT-->
                 <div class="grid-title">
                     <div class="pull-left">
                         <div class="icon-title"><i class="icon-user"></i></div>
-                        <span>Friends</span>
+                        <span>Contacts Notes</span>
                         <div class="clearfix"></div>
                     </div>
                     <div class="pull-right">
+                        <div class="icon-title"><a href="#"><i class="icon-plus"></i></a></div>
                         <div class="icon-title"><a href="#"><i class="icon-refresh"></i></a></div>
                         <div class="icon-title"><a href="#"><i class="icon-cog"></i></a></div>
                     </div>
@@ -231,49 +233,49 @@ Seq[Any](format.raw/*3.1*/("""<!--BEGIN MAIN CONTENT-->
                 <div class="grid-content overflow">
                     <div class="friends">
                         <div class="friend">
-                            <img src="images/avatar-11.png" alt="" class="f-avatar">
+                            <img src=""""),_display_(/*210.40*/routes/*210.46*/.Assets.at("images/avatar-11.png")),format.raw/*210.80*/("""" alt="" class="f-avatar">
                             <div class="f-actions">
-                                <a href="#">Unfriend</a>
+                                <a href="#">Edit</a>
                             </div>
                             <div class="f-info">
                                 <div class="f-name">Bobby Ginn</div>
-                                <div class="f-text">Pro Cookies Eanter</div>
+                                <div class="f-text">Wants the XXX model at $Y</div>
                             </div>
                             <div class="clearfix"></div>
                         </div>
 
                         <div class="friend">
-                            <img src="images/avatar-10.png" alt="" class="f-avatar">
+                            <img src=""""),_display_(/*222.40*/routes/*222.46*/.Assets.at("images/avatar-10.png")),format.raw/*222.80*/("""" alt="" class="f-avatar">
                             <div class="f-actions">
                                 <a href="#">Unfriend</a>
                             </div>
                             <div class="f-info">
                                 <div class="f-name">Bluroon</div>
-                                <div class="f-text">Dark UI Kit</div>
+                                <div class="f-text">Dark Side Trader, interesting offers</div>
                             </div>
                             <div class="clearfix"></div>
                         </div>
 
                         <div class="friend">
-                            <img src="images/avatar-9.png" alt="" class="f-avatar">
+                            <img src=""""),_display_(/*234.40*/routes/*234.46*/.Assets.at("images/avatar-9.png")),format.raw/*234.79*/("""" alt="" class="f-avatar">
                             <div class="f-actions">
                                 <a href="#">Unfriend</a>
                             </div>
                             <div class="f-info">
                                 <div class="f-name">Tom Brenn...</div>
-                                <div class="f-text">Simple</div>
+                                <div class="f-text">Call him July 7</div>
                             </div>
                             <div class="clearfix"></div>
                         </div>
 
                         <div class="friend">
-                            <img src="images/avatar-8.png" alt="" class="f-avatar">
+                            <img src=""""),_display_(/*246.40*/routes/*246.46*/.Assets.at("images/avatar-8.png")),format.raw/*246.79*/("""" alt="" class="f-avatar">
                             <div class="f-actions">
                                 <a href="#">Unfriend</a>
                             </div>
                             <div class="f-info">
                                 <div class="f-name">Fabio Basile</div>
-                                <div class="f-text">Updated</div>
+                                <div class="f-text">Health Problem</div>
                             </div>
                             <div class="clearfix"></div>
                         </div>
@@ -290,21 +292,21 @@ Seq[Any](format.raw/*3.1*/("""<!--BEGIN MAIN CONTENT-->
         <div class="information-box-3">
             <div class="item">
                 <div class="box-info">
-                    <img src=""""),_display_(/*267.32*/routes/*267.38*/.Assets.at("images/icon/stats_1.png")),format.raw/*267.75*/("""" alt="">
+                    <img src=""""),_display_(/*269.32*/routes/*269.38*/.Assets.at("images/icon/stats_1.png")),format.raw/*269.75*/("""" alt="">
                     <div class="box-figures">345.23K</div>
                     <div class="box-title">1 256, 00 $</div>
                 </div>
             </div>
             <div class="item">
                 <div class="box-info">
-                    <img src=""""),_display_(/*274.32*/routes/*274.38*/.Assets.at("images/icon/stats_2.png")),format.raw/*274.75*/("""" alt="">
+                    <img src=""""),_display_(/*276.32*/routes/*276.38*/.Assets.at("images/icon/stats_2.png")),format.raw/*276.75*/("""" alt="">
                     <div class="box-figures">345.23K</div>
                     <div class="box-title">1 256, 00 $</div>
                 </div>
             </div>
             <div class="item">
                 <div class="box-info">
-                    <img src=""""),_display_(/*281.32*/routes/*281.38*/.Assets.at("images/icon/stats_3.png")),format.raw/*281.75*/("""" alt="">
+                    <img src=""""),_display_(/*283.32*/routes/*283.38*/.Assets.at("images/icon/stats_3.png")),format.raw/*283.75*/("""" alt="">
                     <div class="box-figures">345.23K</div>
                     <div class="box-title">1 256, 00 $</div>
                 </div>
@@ -333,7 +335,7 @@ Seq[Any](format.raw/*3.1*/("""<!--BEGIN MAIN CONTENT-->
                     <div class="friends">
 
                         <div class="friend">
-                            <img src=""""),_display_(/*310.40*/routes/*310.46*/.Assets.at("images/avatar-14.png")),format.raw/*310.80*/("""" alt="" class="f-avatar">
+                            <img src=""""),_display_(/*312.40*/routes/*312.46*/.Assets.at("images/avatar-14.png")),format.raw/*312.80*/("""" alt="" class="f-avatar">
                             <div class="f-info">
                                 <div class="f-name">Maykel Loomans</div>
                                 <div class="f-text">Cras sit amet nibh libero, in gravida nulla.</div>
@@ -346,7 +348,7 @@ Seq[Any](format.raw/*3.1*/("""<!--BEGIN MAIN CONTENT-->
                         </div>
 
                         <div class="friend">
-                            <img src=""""),_display_(/*323.40*/routes/*323.46*/.Assets.at("images/avatar-13.png")),format.raw/*323.80*/("""" alt="" class="f-avatar">
+                            <img src=""""),_display_(/*325.40*/routes/*325.46*/.Assets.at("images/avatar-13.png")),format.raw/*325.80*/("""" alt="" class="f-avatar">
                             <div class="f-info">
                                 <div class="f-name">Bobby Giangeruso</div>
                                 <div class="f-text">Cras sit amet nibh libero, in gravida nulla.</div>
@@ -359,7 +361,7 @@ Seq[Any](format.raw/*3.1*/("""<!--BEGIN MAIN CONTENT-->
                         </div>
 
                         <div class="friend">
-                            <img src=""""),_display_(/*336.40*/routes/*336.46*/.Assets.at("images/avatar-12.png")),format.raw/*336.80*/("""" alt="" class="f-avatar">
+                            <img src=""""),_display_(/*338.40*/routes/*338.46*/.Assets.at("images/avatar-12.png")),format.raw/*338.80*/("""" alt="" class="f-avatar">
                             <div class="f-info">
                                 <div class="f-name">Simon Gustavsson</div>
                                 <div class="f-text">Cras sit amet nibh libero, in gravida nulla.</div>
@@ -503,14 +505,14 @@ Seq[Any](format.raw/*3.1*/("""<!--BEGIN MAIN CONTENT-->
             <div class="row-fluid">
 
                 <div class="span3 process-name">
-                    <i class="icon-upload-alt"></i> Download.
+                    <i class="icon-upload-alt"></i> Stock Arrival
                 </div>
                 <div class="span6 info">
-                  This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+                  There are new Stock Units being introduced in the system
                     <div class="process-progress"> <div class="advance blue" style="width:46%"></div> </div>
                 </div>
                 <div class="span3">
-                    <a href="#" class="process-action blue">Cancel</a>
+                    <a href="#" class="process-action blue">View</a>
                 </div>
 
             </div>
@@ -518,7 +520,7 @@ Seq[Any](format.raw/*3.1*/("""<!--BEGIN MAIN CONTENT-->
         </div>
             <!--Process Box END-->
 
-            <!--Process Box-->
+            <!--Process Box
         <div class="process-box">
             <div class="row-fluid">
 
@@ -535,10 +537,10 @@ Seq[Any](format.raw/*3.1*/("""<!--BEGIN MAIN CONTENT-->
 
             </div>
             <div class="clearfix"></div>
-        </div>
+        </div>-->
             <!--Process Box END-->
 
-            <!--Process Box-->
+            <!--Process Box
         <div class="process-box">
             <div class="row-fluid">
 
@@ -555,12 +557,12 @@ Seq[Any](format.raw/*3.1*/("""<!--BEGIN MAIN CONTENT-->
 
             </div>
             <div class="clearfix"></div>
-        </div>
+        </div>-->
             <!--Process Box END-->
 
             <!--BEGIN FOOTER-->
         <div class="footer">
-            <div class="left">TyreBoard &copy; """),_display_(/*537.49*/Calendar/*537.57*/.getInstance().get(Calendar.YEAR)),format.raw/*537.90*/("""</div>
+            <div class="left">TyreBoard &copy; """),_display_(/*539.49*/Calendar/*539.57*/.getInstance().get(Calendar.YEAR)),format.raw/*539.90*/("""</div>
             <div class="clearfix"></div>
         </div>
             <!--BEGIN FOOTER END-->
@@ -581,11 +583,11 @@ Seq[Any](format.raw/*3.1*/("""<!--BEGIN MAIN CONTENT-->
 }
               /*
                   -- GENERATED --
-                  DATE: Sun Jun 15 00:02:56 CEST 2014
+                  DATE: Sun Jun 15 01:23:12 CEST 2014
                   SOURCE: /Users/ealcala/Documents/SoftwareDev/playFramework/workspace/tyreBoard/app/views/dashboardResume.scala.html
-                  HASH: 7fdde7642c9a383265682f7a06019fe3e167c59c
-                  MATRIX: 833->28|1636->804|1651->810|1722->859|2047->1157|2062->1163|2129->1208|2456->1508|2471->1514|2540->1561|12254->11247|12270->11253|12329->11290|12630->11563|12646->11569|12705->11606|13006->11879|13022->11885|13081->11922|14264->13077|14280->13083|14336->13117|15087->13840|15103->13846|15159->13880|15912->14605|15928->14611|15984->14645|25408->24041|25426->24049|25481->24082
-                  LINES: 29->3|51->25|51->25|51->25|57->31|57->31|57->31|63->37|63->37|63->37|293->267|293->267|293->267|300->274|300->274|300->274|307->281|307->281|307->281|336->310|336->310|336->310|349->323|349->323|349->323|362->336|362->336|362->336|563->537|563->537|563->537
+                  HASH: d8a410e77e0f50e8d7013fbc4570f18f36fdd3dd
+                  MATRIX: 833->28|1636->804|1651->810|1722->859|2047->1157|2062->1163|2129->1208|2456->1508|2471->1514|2540->1561|9771->8764|9787->8770|9843->8804|10448->9381|10464->9387|10520->9421|11137->10010|11153->10016|11208->10049|11809->10622|11825->10628|11880->10661|12743->11496|12759->11502|12818->11539|13119->11812|13135->11818|13194->11855|13495->12128|13511->12134|13570->12171|14753->13326|14769->13332|14825->13366|15576->14089|15592->14095|15648->14129|16401->14854|16417->14860|16473->14894|25866->24259|25884->24267|25939->24300
+                  LINES: 29->3|51->25|51->25|51->25|57->31|57->31|57->31|63->37|63->37|63->37|236->210|236->210|236->210|248->222|248->222|248->222|260->234|260->234|260->234|272->246|272->246|272->246|295->269|295->269|295->269|302->276|302->276|302->276|309->283|309->283|309->283|338->312|338->312|338->312|351->325|351->325|351->325|364->338|364->338|364->338|565->539|565->539|565->539
                   -- GENERATED --
               */
           
