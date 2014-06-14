@@ -1,0 +1,143 @@
+@(user: User)
+
+<!--BEGIN HEADER-->
+<div id="header" role="banner">
+        <!--Logo--><a href="#" class="logo"><h1>TyreBoard</h1></a><!--Logo END-->
+
+
+
+    <!--Search-->
+    <form class="search" action="#">
+        <input type="text" name="q" placeholder="Search...">
+    </form>
+        <!--Search END-->
+
+    <div class="right">
+
+            <!--message box-->
+        <div class="dropdown left">
+
+            <a class="dropdown-toggle head-button-link" data-toggle="dropdown" href="#"><span class="notice-new">1</span></a>
+
+            <div class="dropdown-menu pull-right messages-list">
+                <div class="triangle"></div>
+
+                <div class="notice-title">@Messages("header.gotMessages", 1)</div>
+                    <!--message #1-->
+                <div class="notice-message">
+                    <a href="#" class="box">
+                        <div class="avatar"><img src="@routes.Assets.at("images/avatar-2.png")" alt=""></div>
+                        <div class="info">
+                            <div class="author">Csaba Gyulai</div>
+                            <div class="date">Jun 14, 2014</div>
+                            <div class="clearfix"></div>
+                            <div class="text">This is Premium version  of RoadMapperX. Proin gravida nibh vel velit.</div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </a>
+                </div>
+
+
+                <a href="#" class="notice-more">@Messages("header.viewMessages")</a>
+            </div>
+        </div>
+            <!--message box end-->
+
+            <!--notification box-->
+        <div class="dropdown left">
+            <a class="dropdown-toggle head-button-link notification" data-toggle="dropdown" href="#"><span class="notice-new">2</span></a>
+
+            <div class="dropdown-menu pull-right messages-list">
+                <div class="triangle"></div>
+
+                <div class="notice-title">@Messages("header.gotNotifications", 2)</div>
+                    <!--message #1-->
+                <div class="notice-message">
+                    <a href="#" class="box">
+                        <div class="avatar"><img src="@routes.Assets.at("images/avatar-5.png")" alt=""></div>
+                        <div class="info">
+                            <div class="author">Jonas Anderson</div>
+                            <div class="date">3 hours ago</div>
+                            <div class="clearfix"></div>
+                            <div class="text">Followed <span class="follow-link">Dennis Salvatier</span></div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </a>
+                </div>
+                    <!--message #2-->
+                <div class="notice-message">
+                    <a href="#" class="box">
+                        <div class="avatar"><img src="@routes.Assets.at("images/avatar-6.png")" alt=""></div>
+                        <div class="info">
+                            <div class="author">Ilias Sounas</div>
+                            <div class="date">19 hours ago</div>
+                            <div class="clearfix"></div>
+                            <div class="text">Commented on <span class="comment-link">Angry Cloud</span></div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </a>
+                </div>
+                    <!--message #3-->
+                <div class="notice-message">
+                    <a href="#" class="box">
+                        <div class="avatar"><img src="@routes.Assets.at("images/avatar-7.png")" alt=""></div>
+                        <div class="info">
+                            <div class="author">Erin Hunting</div>
+                            <div class="date">19 hours ago</div>
+                            <div class="clearfix"></div>
+                            <div class="text">Liked <span class="like-link">Overnight work</span></div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </a>
+                </div>
+
+                <a href="#" class="notice-more">@Messages("header.viewNotifications")</a>
+            </div>
+        </div>
+            <!--notification box end-->
+
+            <!--config box
+        <div class="dropdown left">
+            <a class="dropdown-toggle head-button-link config" data-toggle="dropdown" href="#"></a>
+            <div class="dropdown-menu pull-right settings-box">
+                <div class="triangle-2"></div>
+
+                <a href="javascript:chooseStyle('none', 30)" class="settings-link"></a>
+                <a href="javascript:chooseStyle('blue-theme', 30)" class="settings-link blue"></a>
+                <a href="javascript:chooseStyle('green-theme', 30)" class="settings-link green"></a>
+                <a href="javascript:chooseStyle('purple-theme', 30)" class="settings-link purple"></a>
+                <a href="javascript:chooseStyle('orange-theme', 30)" class="settings-link yellow"></a>
+                <a href="javascript:chooseStyle('red-theme', 30)" class="settings-link red"></a>
+                <div class="clearfix"></div>
+            </div>
+        </div>-->
+            <!--config box end-->
+
+            <!--profile box-->
+        <div class="dropdown left profile">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                <span class="double-spacer"></span>
+                <div class="profile-avatar"><img src="@routes.Assets.at("images/avatar.png")" alt=""></div>
+                <div class="profile-username"><span>@Messages("header.welcome")</span> @user.username (@user.name)</div>
+                <div class="profile-caret"> <span class="caret"></span></div>
+                <span class="double-spacer"></span>
+            </a>
+            <div class="dropdown-menu pull-right profile-box">
+                <div class="triangle-3"></div>
+
+                <ul class="profile-navigation">
+                    <li><a href="#"><i class="icon-user"></i> @Messages("header.profile")</a></li>
+                    <li><a href="#"><i class="icon-cog"></i> @Messages("header.settings")</a></li>
+                    <li><a href="#"><i class="icon-info-sign"></i> @Messages("header.help")</a></li>
+                    <li><a href="index.html"><i class="icon-off"></i> @Messages("header.logout")</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+            <!--profile box end-->
+
+    </div>
+
+
+</div>
+<!--END HEADER-->

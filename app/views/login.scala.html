@@ -13,7 +13,6 @@
     <link rel="stylesheet" media="screen" href="@routes.Assets.at("css/bootstrap.css")">
     <link rel="stylesheet" media="screen" href="@routes.Assets.at("css/icon/font-awesome.css")">
     <link rel="stylesheet" media="screen" href="@routes.Assets.at("css/bootstrap-responsive.css")">
-
         <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
         <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -26,13 +25,16 @@
 
     <body>
 
+        <div id="header" role="banner">
+            <!--Logo--><a href="#" class="logo"><h1>TyreBoard</h1></a><!--Logo END-->
+        </div>
         <div id="wrapper">
 
             <div id="login" class="animate form position">
                     <!--<form action="dashboard.html" class="form-login">-->
                 @helper.form(routes.Application.login) {
                     <div class="content-login">
-                        <div class="header">Account Login</div>
+                        <div class="header">@Messages("login.formTitle")</div>
 
                         <div class="inputs">
                             @if(form.hasGlobalErrors) {
@@ -44,14 +46,15 @@
                             <input name="password" type="password"  placeholder="@Messages("login.formField.password")" />
                         </div>
 
-                        <div class="link-1"><a href="#">@Messages("login.button.newAccount")</a></div>
-                        <div class="link-2"><a href="#">@Messages("login.button.forgotPassword")</a></div>
+                        <div class="link-1"><a href="@routes.Application.newUser()">@Messages("login.button.newAccount")</a></div>
+                        <div class="link-2"><a href="@routes.Application.forgotPassword()">@Messages("login.button.forgotPassword")</a></div>
                         <div class="clear"></div>
                         <div class="button-login"><input type="submit" class="" value="@Messages("login.button.signIn")"></div>
                     </div>
 
+                        <!--
                     <div class="footer-login">
-                            <!--<div class="pull-left">Sing In With</div>
+                            <div class="pull-left">Sing In With</div>
                 <div class="pull-right">
                     <ul class="social-links">
                         <li class="facebook"><a href="#"><span>facebook</span></a></li>
@@ -59,10 +62,10 @@
                         <li class="google-plus"><a href="#"><span>google</span></a></li>
                     </ul>
                 </div>
-                -->
+
                         <div class="clear"></div>
                     </div>
-
+                    -->
                 }
 
             </div>

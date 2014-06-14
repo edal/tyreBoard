@@ -1,22 +1,19 @@
 package controllers;
 
 import controllers.pojos.Login;
-import play.*;
+import models.User;
 import play.data.Form;
-import play.mvc.*;
-
-import views.html.*;
+import play.mvc.Controller;
+import play.mvc.Result;
+import views.html.dashboard;
+import views.html.login;
 
 public class Application extends Controller {
 
-    public static Result index() {
-        return ok(index.render("Your new application is ready."));
-    }
-
-
 
     /*
-     * GET /login
+     * GET  /
+     *      /login
      */
     public static Result showLogin() {
         return ok(
@@ -35,9 +32,37 @@ public class Application extends Controller {
         } else {
             session().clear();
             session("email", loginForm.get().username);
+            models.User u = new User();
+            u.username=loginForm.get().username;
+            u.name="JR employee";
+
             return redirect(
-                    routes.Application.index()
+                    routes.Application.dashboard(u.username)
             );
         }
+    }
+
+    public static Result dashboard(String username) {
+
+            models.User user = new User();
+            user.username=username;
+            user.name="JR employee";
+
+            return ok(dashboard.render(user));
+
+    }
+
+    /*
+     * GET /forgotPassword
+     */
+    public static Result forgotPassword() {
+        return TODO;
+    }
+
+    /*
+     * GET /newUser
+     */
+    public static Result newUser() {
+        return TODO;
     }
 }
