@@ -18,7 +18,7 @@ import play.data._
 import play.api.data.Field
 import play.mvc.Http.Context.Implicit._
 import views.html._
-
+import java.util.Calendar
 /**/
 object dashboardResume extends BaseScalaTemplate[play.twirl.api.HtmlFormat.Appendable,Format[play.twirl.api.HtmlFormat.Appendable]](play.twirl.api.HtmlFormat) with play.twirl.api.Template0[play.twirl.api.HtmlFormat.Appendable] {
 
@@ -26,7 +26,7 @@ object dashboardResume extends BaseScalaTemplate[play.twirl.api.HtmlFormat.Appen
   def apply():play.twirl.api.HtmlFormat.Appendable = {
       _display_ {
 
-Seq[Any](format.raw/*1.1*/("""<!--BEGIN MAIN CONTENT-->
+Seq[Any](format.raw/*3.1*/("""<!--BEGIN MAIN CONTENT-->
 <div id="main" role="main">
     <div class="block">
         <div class="clearfix"></div>
@@ -47,40 +47,40 @@ Seq[Any](format.raw/*1.1*/("""<!--BEGIN MAIN CONTENT-->
         <div class="info-box">
             <div class="row-fluid stats-box">
                 <div class="span4">
-                    <div class="stats-box-title">Vizitor</div>
-                    <div class="stats-box-all-info"><img src="images/icon/icon_vizitors_stats.png" alt=""> 365K</div>
+                    <div class="stats-box-title">Contacts</div>
+                    <div class="stats-box-all-info"><img src=""""),_display_(/*25.64*/routes/*25.70*/.Assets.at("images/icon/icon_vizitors_stats.png")),format.raw/*25.119*/("""" alt=""> 532</div>
                     <div class="wrap-chart"><div id="visitor-stat" class="chart"></div></div>
                 </div>
 
                 <div class="span4">
-                    <div class="stats-box-title">Likes</div>
-                    <div class="stats-box-all-info"><img src="images/icon/icon_like_stats.png" alt=""> 35.00</div>
+                    <div class="stats-box-title">Sales</div>
+                    <div class="stats-box-all-info"><img src=""""),_display_(/*31.64*/routes/*31.70*/.Assets.at("images/icon/icon_like_stats.png")),format.raw/*31.115*/("""" alt=""> 35</div>
                     <div class="wrap-chart"><div id="order-stat" class="chart"></div></div>
                 </div>
 
                 <div class="span4">
-                    <div class="stats-box-title">Orders</div>
-                    <div class="stats-box-all-info"><img src="images/icon/icon_orders_stats.png" alt=""> 1.234</div>
+                    <div class="stats-box-title">Sold Units</div>
+                    <div class="stats-box-all-info"><img src=""""),_display_(/*37.64*/routes/*37.70*/.Assets.at("images/icon/icon_orders_stats.png")),format.raw/*37.117*/("""" alt=""> 5.400</div>
                     <div class="wrap-chart"><div id="user-stat" class="chart"></div></div>
                 </div>
             </div>
 
             <div class="information-data">
                 <div class="data">
-                    <p class="date-figures">935</p>
-                    <p class="date-title">Tikets</p>
+                    <p class="date-figures">$231k</p>
+                    <p class="date-title">Incomings</p>
                 </div>
                 <div class="data">
-                    <p class="date-figures">2316$</p>
+                    <p class="date-figures">$2.500</p>
                     <p class="date-title">Earnings</p>
                 </div>
                 <div class="data">
-                    <p class="date-figures">165</p>
-                    <p class="date-title">Comments</p>
+                    <p class="date-figures">15</p>
+                    <p class="date-title">Open Issues</p>
                 </div>
                 <div class="data data-last">
-                    <p class="date-figures">95%</p>
-                    <p class="date-title">Updates</p>
+                    <p class="date-figures">15</p>
+                    <p class="date-title">In Transit</p>
                 </div>
             </div>
         </div>
@@ -89,16 +89,16 @@ Seq[Any](format.raw/*1.1*/("""<!--BEGIN MAIN CONTENT-->
             <!--quick stats box-->
         <div class="grid-transparent row-fluid quick-stats-box">
             <div class="span3">
-                <span>21</span> twetts
+                <span>10</span> Over Seas
             </div>
             <div class="span3 red">
-                <span>11</span> COMMENTS
+                <span>3</span> Stopped
             </div>
             <div class="span3 orange">
-                <span>28</span> photos
+                <span>2</span> Waiting
             </div>
             <div class="span3 green">
-                <span>51</span> followerss
+                <span>20</span> Successful
             </div>
         </div>
         <div class="clearfix"></div>
@@ -290,21 +290,21 @@ Seq[Any](format.raw/*1.1*/("""<!--BEGIN MAIN CONTENT-->
         <div class="information-box-3">
             <div class="item">
                 <div class="box-info">
-                    <img src="images/icon/stats_1.png" alt="">
+                    <img src=""""),_display_(/*267.32*/routes/*267.38*/.Assets.at("images/icon/stats_1.png")),format.raw/*267.75*/("""" alt="">
                     <div class="box-figures">345.23K</div>
                     <div class="box-title">1 256, 00 $</div>
                 </div>
             </div>
             <div class="item">
                 <div class="box-info">
-                    <img src="images/icon/stats_2.png" alt="">
+                    <img src=""""),_display_(/*274.32*/routes/*274.38*/.Assets.at("images/icon/stats_2.png")),format.raw/*274.75*/("""" alt="">
                     <div class="box-figures">345.23K</div>
                     <div class="box-title">1 256, 00 $</div>
                 </div>
             </div>
             <div class="item">
                 <div class="box-info">
-                    <img src="images/icon/stats_3.png" alt="">
+                    <img src=""""),_display_(/*281.32*/routes/*281.38*/.Assets.at("images/icon/stats_3.png")),format.raw/*281.75*/("""" alt="">
                     <div class="box-figures">345.23K</div>
                     <div class="box-title">1 256, 00 $</div>
                 </div>
@@ -333,7 +333,7 @@ Seq[Any](format.raw/*1.1*/("""<!--BEGIN MAIN CONTENT-->
                     <div class="friends">
 
                         <div class="friend">
-                            <img src="images/avatar-14.png" alt="" class="f-avatar">
+                            <img src=""""),_display_(/*310.40*/routes/*310.46*/.Assets.at("images/avatar-14.png")),format.raw/*310.80*/("""" alt="" class="f-avatar">
                             <div class="f-info">
                                 <div class="f-name">Maykel Loomans</div>
                                 <div class="f-text">Cras sit amet nibh libero, in gravida nulla.</div>
@@ -346,7 +346,7 @@ Seq[Any](format.raw/*1.1*/("""<!--BEGIN MAIN CONTENT-->
                         </div>
 
                         <div class="friend">
-                            <img src="images/avatar-13.png" alt="" class="f-avatar">
+                            <img src=""""),_display_(/*323.40*/routes/*323.46*/.Assets.at("images/avatar-13.png")),format.raw/*323.80*/("""" alt="" class="f-avatar">
                             <div class="f-info">
                                 <div class="f-name">Bobby Giangeruso</div>
                                 <div class="f-text">Cras sit amet nibh libero, in gravida nulla.</div>
@@ -359,7 +359,7 @@ Seq[Any](format.raw/*1.1*/("""<!--BEGIN MAIN CONTENT-->
                         </div>
 
                         <div class="friend">
-                            <img src="images/avatar-12.png" alt="" class="f-avatar">
+                            <img src=""""),_display_(/*336.40*/routes/*336.46*/.Assets.at("images/avatar-12.png")),format.raw/*336.80*/("""" alt="" class="f-avatar">
                             <div class="f-info">
                                 <div class="f-name">Simon Gustavsson</div>
                                 <div class="f-text">Cras sit amet nibh libero, in gravida nulla.</div>
@@ -465,8 +465,7 @@ Seq[Any](format.raw/*1.1*/("""<!--BEGIN MAIN CONTENT-->
                             <div class="note-status"><i class="note-done"></i></div>
                             <div class="note-name">Do the dlishes</div>
                             <div class="note-date blue">12 May</div>
-                            <div class="clearfix"></di"""),
-format.raw("""v>
+                            <div class="clearfix"></div>
                         </div>
                             <!---->
                         <div class="note">
@@ -561,8 +560,7 @@ format.raw("""v>
 
             <!--BEGIN FOOTER-->
         <div class="footer">
-            <div class="left">Copyright &copy; 2013</div>
-            <div class="right"><a href="#">Buy Template</a></div>
+            <div class="left">TyreBoard &copy; """),_display_(/*537.49*/Calendar/*537.57*/.getInstance().get(Calendar.YEAR)),format.raw/*537.90*/("""</div>
             <div class="clearfix"></div>
         </div>
             <!--BEGIN FOOTER END-->
@@ -570,7 +568,8 @@ format.raw("""v>
         <div class="clearfix"></div>
     </div><!--end .block-->
 </div>
-<!--MAIN CONTENT END-->"""))}
+<!--MAIN CONTENT END-->
+"""))}
   }
 
   def render(): play.twirl.api.HtmlFormat.Appendable = apply()
@@ -582,11 +581,11 @@ format.raw("""v>
 }
               /*
                   -- GENERATED --
-                  DATE: Sat Jun 14 23:17:49 CEST 2014
+                  DATE: Sun Jun 15 00:02:56 CEST 2014
                   SOURCE: /Users/ealcala/Documents/SoftwareDev/playFramework/workspace/tyreBoard/app/views/dashboardResume.scala.html
-                  HASH: 70c94191fd66d174bc115af9c917d76b51d7389a
-                  MATRIX: 808->0
-                  LINES: 29->1
+                  HASH: 7fdde7642c9a383265682f7a06019fe3e167c59c
+                  MATRIX: 833->28|1636->804|1651->810|1722->859|2047->1157|2062->1163|2129->1208|2456->1508|2471->1514|2540->1561|12254->11247|12270->11253|12329->11290|12630->11563|12646->11569|12705->11606|13006->11879|13022->11885|13081->11922|14264->13077|14280->13083|14336->13117|15087->13840|15103->13846|15159->13880|15912->14605|15928->14611|15984->14645|25408->24041|25426->24049|25481->24082
+                  LINES: 29->3|51->25|51->25|51->25|57->31|57->31|57->31|63->37|63->37|63->37|293->267|293->267|293->267|300->274|300->274|300->274|307->281|307->281|307->281|336->310|336->310|336->310|349->323|349->323|349->323|362->336|362->336|362->336|563->537|563->537|563->537
                   -- GENERATED --
               */
           

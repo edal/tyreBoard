@@ -1,3 +1,5 @@
+@import java.util.Calendar
+
 <!--BEGIN MAIN CONTENT-->
 <div id="main" role="main">
     <div class="block">
@@ -19,40 +21,40 @@
         <div class="info-box">
             <div class="row-fluid stats-box">
                 <div class="span4">
-                    <div class="stats-box-title">Vizitor</div>
-                    <div class="stats-box-all-info"><img src="images/icon/icon_vizitors_stats.png" alt=""> 365K</div>
+                    <div class="stats-box-title">Contacts</div>
+                    <div class="stats-box-all-info"><img src="@routes.Assets.at("images/icon/icon_vizitors_stats.png")" alt=""> 532</div>
                     <div class="wrap-chart"><div id="visitor-stat" class="chart"></div></div>
                 </div>
 
                 <div class="span4">
-                    <div class="stats-box-title">Likes</div>
-                    <div class="stats-box-all-info"><img src="images/icon/icon_like_stats.png" alt=""> 35.00</div>
+                    <div class="stats-box-title">Sales</div>
+                    <div class="stats-box-all-info"><img src="@routes.Assets.at("images/icon/icon_like_stats.png")" alt=""> 35</div>
                     <div class="wrap-chart"><div id="order-stat" class="chart"></div></div>
                 </div>
 
                 <div class="span4">
-                    <div class="stats-box-title">Orders</div>
-                    <div class="stats-box-all-info"><img src="images/icon/icon_orders_stats.png" alt=""> 1.234</div>
+                    <div class="stats-box-title">Sold Units</div>
+                    <div class="stats-box-all-info"><img src="@routes.Assets.at("images/icon/icon_orders_stats.png")" alt=""> 5.400</div>
                     <div class="wrap-chart"><div id="user-stat" class="chart"></div></div>
                 </div>
             </div>
 
             <div class="information-data">
                 <div class="data">
-                    <p class="date-figures">935</p>
-                    <p class="date-title">Tikets</p>
+                    <p class="date-figures">$231k</p>
+                    <p class="date-title">Incomings</p>
                 </div>
                 <div class="data">
-                    <p class="date-figures">2316$</p>
+                    <p class="date-figures">$2.500</p>
                     <p class="date-title">Earnings</p>
                 </div>
                 <div class="data">
-                    <p class="date-figures">165</p>
-                    <p class="date-title">Comments</p>
+                    <p class="date-figures">15</p>
+                    <p class="date-title">Open Issues</p>
                 </div>
                 <div class="data data-last">
-                    <p class="date-figures">95%</p>
-                    <p class="date-title">Updates</p>
+                    <p class="date-figures">15</p>
+                    <p class="date-title">In Transit</p>
                 </div>
             </div>
         </div>
@@ -61,16 +63,16 @@
             <!--quick stats box-->
         <div class="grid-transparent row-fluid quick-stats-box">
             <div class="span3">
-                <span>21</span> twetts
+                <span>10</span> Over Seas
             </div>
             <div class="span3 red">
-                <span>11</span> COMMENTS
+                <span>3</span> Stopped
             </div>
             <div class="span3 orange">
-                <span>28</span> photos
+                <span>2</span> Waiting
             </div>
             <div class="span3 green">
-                <span>51</span> followerss
+                <span>20</span> Successful
             </div>
         </div>
         <div class="clearfix"></div>
@@ -262,21 +264,21 @@
         <div class="information-box-3">
             <div class="item">
                 <div class="box-info">
-                    <img src="images/icon/stats_1.png" alt="">
+                    <img src="@routes.Assets.at("images/icon/stats_1.png")" alt="">
                     <div class="box-figures">345.23K</div>
                     <div class="box-title">1 256, 00 $</div>
                 </div>
             </div>
             <div class="item">
                 <div class="box-info">
-                    <img src="images/icon/stats_2.png" alt="">
+                    <img src="@routes.Assets.at("images/icon/stats_2.png")" alt="">
                     <div class="box-figures">345.23K</div>
                     <div class="box-title">1 256, 00 $</div>
                 </div>
             </div>
             <div class="item">
                 <div class="box-info">
-                    <img src="images/icon/stats_3.png" alt="">
+                    <img src="@routes.Assets.at("images/icon/stats_3.png")" alt="">
                     <div class="box-figures">345.23K</div>
                     <div class="box-title">1 256, 00 $</div>
                 </div>
@@ -305,7 +307,7 @@
                     <div class="friends">
 
                         <div class="friend">
-                            <img src="images/avatar-14.png" alt="" class="f-avatar">
+                            <img src="@routes.Assets.at("images/avatar-14.png")" alt="" class="f-avatar">
                             <div class="f-info">
                                 <div class="f-name">Maykel Loomans</div>
                                 <div class="f-text">Cras sit amet nibh libero, in gravida nulla.</div>
@@ -318,7 +320,7 @@
                         </div>
 
                         <div class="friend">
-                            <img src="images/avatar-13.png" alt="" class="f-avatar">
+                            <img src="@routes.Assets.at("images/avatar-13.png")" alt="" class="f-avatar">
                             <div class="f-info">
                                 <div class="f-name">Bobby Giangeruso</div>
                                 <div class="f-text">Cras sit amet nibh libero, in gravida nulla.</div>
@@ -331,7 +333,7 @@
                         </div>
 
                         <div class="friend">
-                            <img src="images/avatar-12.png" alt="" class="f-avatar">
+                            <img src="@routes.Assets.at("images/avatar-12.png")" alt="" class="f-avatar">
                             <div class="f-info">
                                 <div class="f-name">Simon Gustavsson</div>
                                 <div class="f-text">Cras sit amet nibh libero, in gravida nulla.</div>
@@ -532,8 +534,7 @@
 
             <!--BEGIN FOOTER-->
         <div class="footer">
-            <div class="left">Copyright &copy; 2013</div>
-            <div class="right"><a href="#">Buy Template</a></div>
+            <div class="left">TyreBoard &copy; @Calendar.getInstance().get(Calendar.YEAR)</div>
             <div class="clearfix"></div>
         </div>
             <!--BEGIN FOOTER END-->

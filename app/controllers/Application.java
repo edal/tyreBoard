@@ -34,7 +34,7 @@ public class Application extends Controller {
             session("email", loginForm.get().username);
             models.User u = new User();
             u.username=loginForm.get().username;
-            u.name="JR employee";
+            u.name="Sales Manager";
 
             return redirect(
                     routes.Application.dashboard(u.username)

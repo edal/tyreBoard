@@ -30,6 +30,9 @@ Seq[Any](format.raw/*1.14*/("""
 
 """),format.raw/*3.1*/("""<!--BEGIN HEADER-->
 <div id="header" role="banner">
+    <a id="menu-link" class="head-button-link menu-hide" href="#menu">
+        <span>Menu</span>
+    </a>
         <!--Logo--><a href="#" class="logo"><h1>TyreBoard</h1></a><!--Logo END-->
 
 
@@ -50,23 +53,23 @@ Seq[Any](format.raw/*1.14*/("""
             <div class="dropdown-menu pull-right messages-list">
                 <div class="triangle"></div>
 
-                <div class="notice-title">"""),_display_(/*25.44*/Messages("header.gotMessages", 1)),format.raw/*25.77*/("""</div>
+                <div class="notice-title">"""),_display_(/*28.44*/Messages("header.gotMessages", 1)),format.raw/*28.77*/("""</div>
                     <!--message #1-->
                 <div class="notice-message">
                     <a href="#" class="box">
-                        <div class="avatar"><img src=""""),_display_(/*29.56*/routes/*29.62*/.Assets.at("images/avatar-2.png")),format.raw/*29.95*/("""" alt=""></div>
+                        <div class="avatar"><img src=""""),_display_(/*32.56*/routes/*32.62*/.Assets.at("images/avatar-2.png")),format.raw/*32.95*/("""" alt=""></div>
                         <div class="info">
-                            <div class="author">Csaba Gyulai</div>
+                            <div class="author">Rash Tardin</div>
                             <div class="date">Jun 14, 2014</div>
                             <div class="clearfix"></div>
-                            <div class="text">This is Premium version  of RoadMapperX. Proin gravida nibh vel velit.</div>
+                            <div class="text">This is Premium version of RoadMapperX, 400units at $X. Proin gravida nibh vel velit.</div>
                         </div>
                         <div class="clearfix"></div>
                     </a>
                 </div>
 
 
-                <a href="#" class="notice-more">"""),_display_(/*41.50*/Messages("header.viewMessages")),format.raw/*41.81*/("""</a>
+                <a href="#" class="notice-more">"""),_display_(/*44.50*/Messages("header.viewMessages")),format.raw/*44.81*/("""</a>
             </div>
         </div>
             <!--message box end-->
@@ -78,11 +81,11 @@ Seq[Any](format.raw/*1.14*/("""
             <div class="dropdown-menu pull-right messages-list">
                 <div class="triangle"></div>
 
-                <div class="notice-title">"""),_display_(/*53.44*/Messages("header.gotNotifications", 2)),format.raw/*53.82*/("""</div>
+                <div class="notice-title">"""),_display_(/*56.44*/Messages("header.gotNotifications", 2)),format.raw/*56.82*/("""</div>
                     <!--message #1-->
                 <div class="notice-message">
                     <a href="#" class="box">
-                        <div class="avatar"><img src=""""),_display_(/*57.56*/routes/*57.62*/.Assets.at("images/avatar-5.png")),format.raw/*57.95*/("""" alt=""></div>
+                        <div class="avatar"><img src=""""),_display_(/*60.56*/routes/*60.62*/.Assets.at("images/avatar-5.png")),format.raw/*60.95*/("""" alt=""></div>
                         <div class="info">
                             <div class="author">Jonas Anderson</div>
                             <div class="date">3 hours ago</div>
@@ -95,7 +98,7 @@ Seq[Any](format.raw/*1.14*/("""
                     <!--message #2-->
                 <div class="notice-message">
                     <a href="#" class="box">
-                        <div class="avatar"><img src=""""),_display_(/*70.56*/routes/*70.62*/.Assets.at("images/avatar-6.png")),format.raw/*70.95*/("""" alt=""></div>
+                        <div class="avatar"><img src=""""),_display_(/*73.56*/routes/*73.62*/.Assets.at("images/avatar-6.png")),format.raw/*73.95*/("""" alt=""></div>
                         <div class="info">
                             <div class="author">Ilias Sounas</div>
                             <div class="date">19 hours ago</div>
@@ -108,7 +111,7 @@ Seq[Any](format.raw/*1.14*/("""
                     <!--message #3-->
                 <div class="notice-message">
                     <a href="#" class="box">
-                        <div class="avatar"><img src=""""),_display_(/*83.56*/routes/*83.62*/.Assets.at("images/avatar-7.png")),format.raw/*83.95*/("""" alt=""></div>
+                        <div class="avatar"><img src=""""),_display_(/*86.56*/routes/*86.62*/.Assets.at("images/avatar-7.png")),format.raw/*86.95*/("""" alt=""></div>
                         <div class="info">
                             <div class="author">Erin Hunting</div>
                             <div class="date">19 hours ago</div>
@@ -119,7 +122,7 @@ Seq[Any](format.raw/*1.14*/("""
                     </a>
                 </div>
 
-                <a href="#" class="notice-more">"""),_display_(/*94.50*/Messages("header.viewNotifications")),format.raw/*94.86*/("""</a>
+                <a href="#" class="notice-more">"""),_display_(/*97.50*/Messages("header.viewNotifications")),format.raw/*97.86*/("""</a>
             </div>
         </div>
             <!--notification box end-->
@@ -145,8 +148,8 @@ Seq[Any](format.raw/*1.14*/("""
         <div class="dropdown left profile">
             <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                 <span class="double-spacer"></span>
-                <div class="profile-avatar"><img src=""""),_display_(/*120.56*/routes/*120.62*/.Assets.at("images/avatar.png")),format.raw/*120.93*/("""" alt=""></div>
-                <div class="profile-username"><span>"""),_display_(/*121.54*/Messages("header.welcome")),format.raw/*121.80*/("""</span> """),_display_(/*121.89*/user/*121.93*/.username),format.raw/*121.102*/(""" """),format.raw/*121.103*/("""("""),_display_(/*121.105*/user/*121.109*/.name),format.raw/*121.114*/(""")</div>
+                <div class="profile-avatar"><img src=""""),_display_(/*123.56*/routes/*123.62*/.Assets.at("images/avatar.png")),format.raw/*123.93*/("""" alt=""></div>
+                <div class="profile-username"><span>"""),_display_(/*124.54*/Messages("header.welcome")),format.raw/*124.80*/("""</span> """),_display_(/*124.89*/user/*124.93*/.username),format.raw/*124.102*/(""" """),format.raw/*124.103*/("""("""),_display_(/*124.105*/user/*124.109*/.name),format.raw/*124.114*/(""")</div>
                 <div class="profile-caret"> <span class="caret"></span></div>
                 <span class="double-spacer"></span>
             </a>
@@ -154,10 +157,10 @@ Seq[Any](format.raw/*1.14*/("""
                 <div class="triangle-3"></div>
 
                 <ul class="profile-navigation">
-                    <li><a href="#"><i class="icon-user"></i> """),_display_(/*129.64*/Messages("header.profile")),format.raw/*129.90*/("""</a></li>
-                    <li><a href="#"><i class="icon-cog"></i> """),_display_(/*130.63*/Messages("header.settings")),format.raw/*130.90*/("""</a></li>
-                    <li><a href="#"><i class="icon-info-sign"></i> """),_display_(/*131.69*/Messages("header.help")),format.raw/*131.92*/("""</a></li>
-                    <li><a href="index.html"><i class="icon-off"></i> """),_display_(/*132.72*/Messages("header.logout")),format.raw/*132.97*/("""</a></li>
+                    <li><a href="#"><i class="icon-user"></i> """),_display_(/*132.64*/Messages("header.profile")),format.raw/*132.90*/("""</a></li>
+                    <li><a href="#"><i class="icon-cog"></i> """),_display_(/*133.63*/Messages("header.settings")),format.raw/*133.90*/("""</a></li>
+                    <li><a href="#"><i class="icon-info-sign"></i> """),_display_(/*134.69*/Messages("header.help")),format.raw/*134.92*/("""</a></li>
+                    <li><a href="index.html"><i class="icon-off"></i> """),_display_(/*135.72*/Messages("header.logout")),format.raw/*135.97*/("""</a></li>
                 </ul>
             </div>
         </div>
@@ -180,11 +183,11 @@ Seq[Any](format.raw/*1.14*/("""
 }
               /*
                   -- GENERATED --
-                  DATE: Sat Jun 14 23:00:15 CEST 2014
+                  DATE: Sun Jun 15 00:05:06 CEST 2014
                   SOURCE: /Users/ealcala/Documents/SoftwareDev/playFramework/workspace/tyreBoard/app/views/header.scala.html
-                  HASH: 59e54dcffe242779b6aa09c490fd5af107fe58f9
-                  MATRIX: 722->1|822->13|850->15|1543->681|1597->714|1814->904|1829->910|1883->943|2464->1497|2516->1528|2984->1969|3043->2007|3260->2197|3275->2203|3329->2236|4031->2911|4046->2917|4100->2950|4801->3624|4816->3630|4870->3663|5431->4197|5488->4233|6833->5550|6849->5556|6902->5587|6999->5656|7047->5682|7084->5691|7098->5695|7130->5704|7161->5705|7192->5707|7207->5711|7235->5716|7640->6093|7688->6119|7788->6191|7837->6218|7943->6296|7988->6319|8097->6400|8144->6425
-                  LINES: 26->1|29->1|31->3|53->25|53->25|57->29|57->29|57->29|69->41|69->41|81->53|81->53|85->57|85->57|85->57|98->70|98->70|98->70|111->83|111->83|111->83|122->94|122->94|148->120|148->120|148->120|149->121|149->121|149->121|149->121|149->121|149->121|149->121|149->121|149->121|157->129|157->129|158->130|158->130|159->131|159->131|160->132|160->132
+                  HASH: 88ead42ccc1074742646353f61626df6e8592b42
+                  MATRIX: 722->1|822->13|850->15|1649->787|1703->820|1920->1010|1935->1016|1989->1049|2584->1617|2636->1648|3104->2089|3163->2127|3380->2317|3395->2323|3449->2356|4151->3031|4166->3037|4220->3070|4921->3744|4936->3750|4990->3783|5551->4317|5608->4353|6953->5670|6969->5676|7022->5707|7119->5776|7167->5802|7204->5811|7218->5815|7250->5824|7281->5825|7312->5827|7327->5831|7355->5836|7760->6213|7808->6239|7908->6311|7957->6338|8063->6416|8108->6439|8217->6520|8264->6545
+                  LINES: 26->1|29->1|31->3|56->28|56->28|60->32|60->32|60->32|72->44|72->44|84->56|84->56|88->60|88->60|88->60|101->73|101->73|101->73|114->86|114->86|114->86|125->97|125->97|151->123|151->123|151->123|152->124|152->124|152->124|152->124|152->124|152->124|152->124|152->124|152->124|160->132|160->132|161->133|161->133|162->134|162->134|163->135|163->135
                   -- GENERATED --
               */
           

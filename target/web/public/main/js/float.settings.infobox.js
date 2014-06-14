@@ -1,9 +1,9 @@
 // INFO BOX
 $(document).ready(function() {
 
-                d1 = [ ['jan', 100], ['feb', 132], ['mar', 92], ['apr', 152], ['maj', 116], ['jun', 264], ['jul', 104] ];
-                d2 = [ ['jan', 100], ['feb', 132], ['mar', 92], ['apr', 152], ['maj', 116], ['jun', 264], ['jul', 104] ];
-                d3 = [ ['jan', 100], ['feb', 132], ['mar', 92], ['apr', 152], ['maj', 116], ['jun', 264], ['jul', 104] ];
+                d1 = [ ['jan', 100], ['feb', 112], ['mar', 115], ['apr', 152], ['maj', 216], ['jun', 364], ['jul', 532] ];
+                d2 = [ ['jan', 2], ['feb', 7], ['mar', 5], ['apr', 1], ['maj', 10], ['jun', 6], ['jul', 7] ];
+                d3 = [ ['jan', 200], ['feb', 800], ['mar', 600], ['apr', 300], ['maj', 950], ['jun', 750], ['jul', 800] ];
                 
                 var visitor = $("#visitor-stat"),
                 order = $("#order-stat"),
