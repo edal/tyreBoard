@@ -1,0 +1,8 @@
+login.pageTitle=Welcome to tyreBoard
+login.formTitle=Account Login
+login.formField.username=Username
+login.formField.password=Password
+login.button.newAccount=Create New Account
+login.button.forgotPassword=Forgot Password?
+login.button.signIn=Sign In
+login.error.invalidUserOrPassword=Invalid user name or password
